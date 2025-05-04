@@ -136,7 +136,7 @@ public class LotteryCell extends JPanel {
         File file = new File(path); // 이미지 파일 경로 객체 생성
         if (file.exists()) { // 해당 이미지 파일이 존재하는지 확인
             ImageIcon icon = new ImageIcon(path); // 아이콘 객체 생성
-            // 아이콘 크기 조정 (50x50 픽셀로 부드럽게 리사이징)
+            // 아이콘 크기 조정 (80x80 픽셀로 부드럽게 리사이징)
             Image scaled = icon.getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH);
             return new ImageIcon(scaled); // 조정된 아이콘 반환
         } else {
