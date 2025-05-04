@@ -6,6 +6,15 @@ import java.awt.event.*;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/*
+ * 생성자 : 문원주
+ * 생성일 : 25.05.04
+ * 파일명 : LotteryPanel.java
+ * 수정자 : 
+ * 수정일 :
+ * 설명 : 패널 생성 및 결과값 처리
+ */
+
 // 메인 게임 패널 클래스
 public class LotteryPanel extends JPanel {
     private ArrayList<LotteryCell> cells; // 9개의 셀을 담을 리스트

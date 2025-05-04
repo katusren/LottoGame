@@ -6,6 +6,15 @@ import java.awt.*;
 import java.awt.event.*;
 import java.io.File;
 
+/*
+ * 생성자 : 문원주
+ * 생성일 : 25.05.04
+ * 파일명 : LotteryCell.java
+ * 수정자 : 
+ * 수정일 :
+ * 설명 : 셀에서 동작하는 이벤트의 구현
+ */
+
 // 하나의 셀(패널)을 담당하는 클래스
 public class LotteryCell extends JPanel {
     private JTextField nameField; // 이름 입력 필드

@@ -2,6 +2,15 @@ package LottoGame;
 
 import javax.swing.*;
 
+/*
+ * 생성자 : 문원주
+ * 생성일 : 25.05.04
+ * 파일명 : LotteryGameMain.java
+ * 수정자 : 
+ * 수정일 :
+ * 설명 : 프로그램 실행의 Main
+ */
+
 // 프로그램 시작 클래스
 public class LotteryGameMain {
     public static void main(String[] args) {
