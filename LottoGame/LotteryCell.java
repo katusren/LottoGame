@@ -26,10 +26,10 @@ public class LotteryCell extends JPanel {
         setBorder(BorderFactory.createLineBorder(Color.BLACK, 2)); // 셀 테두리 설정
         setPreferredSize(new Dimension(120, 120)); // 셀 크기 고정
 
-        // === 위쪽쪽에 이미지(보물상자, 해골 등)를 표시할 라벨 ===
+        // === 위쪽에 이미지(보물상자, 해골 등)를 표시할 라벨 ===
         iconLabel = new JLabel("", SwingConstants.CENTER); // 가운데 정렬
         iconLabel.setBorder(BorderFactory.createEmptyBorder(10, 0, 0, 0)); // 위쪽 여백 추가
-        add(iconLabel, BorderLayout.NORTH); // 위쪽쪽에 배치
+        add(iconLabel, BorderLayout.NORTH); // 위쪽에 배치
 
         // === 결과 텍스트 라벨 ===
         resultLabel = new JLabel("", SwingConstants.CENTER);
@@ -93,7 +93,7 @@ public class LotteryCell extends JPanel {
             iconLabel.setIcon(null); // 이미지가 없으면 null 처리
         }
 
-        // === ✨ 텍스트 확대/축소 애니메이션 효과 추가 ===
+        // === 텍스트 확대/축소 애니메이션 효과 추가 ===
 
         Timer timer = new Timer(30, null); // 확대용 타이머 (30ms 간격)
         final int[] size = {fontSize};     // 글자 크기 저장용 (람다 캡처 위해 배열 사용)
@@ -121,7 +121,7 @@ public class LotteryCell extends JPanel {
 
         timer.start(); // 확대 타이머 시작
 
-        // === ✨ 애니메이션 끝 ===
+        // === 애니메이션 끝 ===
     }
 
     // 셀을 초기화하는 메소드 (결과와 배경 제거)
@@ -146,5 +146,5 @@ public class LotteryCell extends JPanel {
         }
 
     }
-    
+
 }
