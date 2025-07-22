@@ -7,7 +7,7 @@ import java.io.File;
 
 /*
  * 생성자 : 문원주
- * 생성일 : 25.05.04
+ * 생성일 : 25.05.10
  * 파일명 : LotteryCell.java
  * 수정자 : 
  * 수정일 :
